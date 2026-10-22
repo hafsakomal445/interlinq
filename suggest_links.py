@@ -51,6 +51,7 @@ Rules:
 - If no link makes sense, return an empty list.
 - Prefer descriptive, specific anchors. Avoid generic phrases like "web page", "website", "click here" or "search engine".
 - Suggest at most 3 links, and only the strongest ones.
+- Anchor text must describe the target page’s specific topic.
 Return ONLY JSON in this shape:
 [{{"target_url": "...", "anchor_text": "...", "reason": "..."}}]
 """
